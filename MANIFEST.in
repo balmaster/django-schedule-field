@@ -1,3 +1,3 @@
 include MANIFEST.in
-recursive-include schedule_field/fixtures/ *
-recursive-include schedule_field/static/ *
+recursive-include schedule_field/fixtures *
+recursive-include schedule_field/static *
