@@ -31,6 +31,6 @@ setup(
         'django (>1.1)',
     ],
     packages=['schedule_field'],
-    package_data={'schedule_field': ['fixtures/*']},
+    package_data={'schedule_field': ['fixtures/*','static/*','static/widgets/*','static/widgets/schedule/*']},
     zip_safe=False
 )
