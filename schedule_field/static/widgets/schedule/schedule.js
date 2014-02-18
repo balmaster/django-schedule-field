@@ -214,8 +214,8 @@ Array.prototype.min = function() {
 			getValue();
 		});
 	};
-})(jQuery);
+    $(function() {
+        $('[data-widget=schedule]').schedule();
+    });
+})($ || django.jQuery);
 
-$(function() {
-	$('[data-widget=schedule]').schedule();
-});
